@@ -1,0 +1,8 @@
+
+./keeper-remote -id host1 -http :9801
+./keeper-remote -id host2 -http :9802
+
+
+./keeper-check -leader host2
+
+sh  keeper-broken.sh
